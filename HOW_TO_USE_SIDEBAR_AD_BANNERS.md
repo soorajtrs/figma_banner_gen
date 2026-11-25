@@ -76,3 +76,42 @@ Paste a requirement document, share a link/file, or fill in this template:
   />
 </a>
 ```
+
+---
+
+## 5. Using This Skill with Antigravity or Claude Code
+
+Make sure the **Figma MCP server** is installed and signed in on your target tool so it can create and edit Figma files.
+
+### Option A: Antigravity
+1. **Workspace install** (already set up if you clone this repo):
+   ```bash
+   git clone https://github.com/soorajtrs/figma_banner_gen.git
+   ```
+   Antigravity automatically discovers `.agents/skills/sidebar-ad-banners/SKILL.md` in the workspace.
+2. **Global install** (to use across all projects):
+   ```bash
+   mkdir -p ~/.gemini/config/skills
+   cp -r .agents/skills/sidebar-ad-banners ~/.gemini/config/skills/
+   ```
+3. **Run it**: Open Antigravity and prompt:
+   > *"Use the `sidebar-ad-banners` skill to create sidebar ads for my company."*
+
+### Option B: Claude Code
+1. **Project install** (copy into `.claude/skills/` in your project):
+   ```bash
+   mkdir -p .claude/skills
+   cp -r .agents/skills/sidebar-ad-banners .claude/skills/
+   ```
+2. **Global install** (to use in any repository):
+   ```bash
+   mkdir -p ~/.claude/skills
+   cp -r .agents/skills/sidebar-ad-banners ~/.claude/skills/
+   ```
+3. **Connect Figma MCP** in Claude Code (if not already configured):
+   ```bash
+   claude mcp add --transport http figma https://mcp.figma.com/mcp
+   ```
+4. **Run it**: Start Claude Code and invoke `/sidebar-ad-banners` or prompt:
+   > *"Use the `sidebar-ad-banners` skill to design website sidebar ads in Figma."*
+
