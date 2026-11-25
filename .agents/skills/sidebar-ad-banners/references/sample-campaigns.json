@@ -1,0 +1,104 @@
+{
+  "campaigns": [
+    {
+      "id": "pulseflow-saas",
+      "industry": "B2B SaaS",
+      "brandName": "PulseFlow",
+      "tagline": "Project Automation",
+      "colors": {
+        "background": "#0B1026",
+        "backgroundSecondary": "#162044",
+        "accent": "#38BDF8",
+        "accentSecondary": "#6366F1",
+        "textPrimary": "#FFFFFF",
+        "textMuted": "#BAC6E0",
+        "ctaText": "#0B1026"
+      },
+      "badge": "FREE TRIAL",
+      "headline": "Ship Campaigns 3× Faster",
+      "subheadline": "Automate workflows and track live ROI in one dashboard.",
+      "ctaCopy": "Start Free Trial →",
+      "sizes": ["300x600", "300x250", "160x600"]
+    },
+    {
+      "id": "veloura-ecommerce",
+      "industry": "E-Commerce",
+      "brandName": "Veloura",
+      "tagline": "Sustainable Sneakers",
+      "colors": {
+        "background": "#FAF7F2",
+        "backgroundSecondary": "#F3EDE2",
+        "accent": "#EA580C",
+        "accentSecondary": "#1C1917",
+        "textPrimary": "#1C1917",
+        "textMuted": "#57534E",
+        "ctaText": "#FFFFFF"
+      },
+      "badge": "25% OFF",
+      "headline": "Step Lighter Every Day",
+      "subheadline": "Ultra-light recycled knit sneakers. Free 30-day returns.",
+      "ctaCopy": "Shop Now →",
+      "sizes": ["300x250", "300x600"]
+    },
+    {
+      "id": "mintledger-fintech",
+      "industry": "Fintech",
+      "brandName": "MintLedger",
+      "tagline": "High-Yield Savings",
+      "colors": {
+        "background": "#06281E",
+        "backgroundSecondary": "#0B3B2D",
+        "accent": "#10B981",
+        "accentSecondary": "#34D399",
+        "textPrimary": "#FFFFFF",
+        "textMuted": "#A7F3D0",
+        "ctaText": "#06281E"
+      },
+      "badge": "4.85% APY",
+      "headline": "Make Your Cash Work Harder",
+      "subheadline": "Zero monthly fees. FDIC-insured up to $250K.",
+      "ctaCopy": "Open Account →",
+      "sizes": ["300x600", "160x600"]
+    },
+    {
+      "id": "skillforge-edtech",
+      "industry": "EdTech",
+      "brandName": "SkillForge",
+      "tagline": "AI & Design Bootcamp",
+      "colors": {
+        "background": "#111827",
+        "backgroundSecondary": "#1F2937",
+        "accent": "#8B5CF6",
+        "accentSecondary": "#F59E0B",
+        "textPrimary": "#FFFFFF",
+        "textMuted": "#D1D5DB",
+        "ctaText": "#FFFFFF"
+      },
+      "badge": "COHORT OPEN",
+      "headline": "Master AI Design in 6 Weeks",
+      "subheadline": "Live mentor sessions, real portfolio projects, career support.",
+      "ctaCopy": "Reserve Seat →",
+      "sizes": ["300x250", "300x600"]
+    },
+    {
+      "id": "kinetix-fitness",
+      "industry": "Health & Fitness",
+      "brandName": "Kinetix",
+      "tagline": "Smart Workout App",
+      "colors": {
+        "background": "#09090B",
+        "backgroundSecondary": "#27272A",
+        "accent": "#A3E635",
+        "accentSecondary": "#84CC16",
+        "textPrimary": "#FFFFFF",
+        "textMuted": "#A1A1AA",
+        "ctaText": "#09090B"
+      },
+      "badge": "14 DAYS FREE",
+      "headline": "Your Personal Coach, Anywhere",
+      "subheadline": "Adaptive 20-minute workouts tailored to your goals.",
+      "ctaCopy": "Claim Free Pass →",
+      "sizes": ["300x600", "300x250", "160x600"]
+    }
+  ]
+}
